@@ -24,7 +24,7 @@ app.use(cookieParser());
 // ********** CORS FIX **********
 const allowedOrigins = [
   "http://localhost:5173", // Vite frontend
-  "http://localhost:3000", // Optional
+  "https://speedy-dev-tsg.vercel.app", // Optional
   process.env.FRONTEND_URL, // Production
 ];
 
